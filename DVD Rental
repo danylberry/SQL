@@ -6,3 +6,8 @@ from customer;
 select * 
 from customer 
 limit 10;
+
+3. Displaying unqiue MPAA ratings for movies within database.
+select distinct (rating)
+from film;
+
