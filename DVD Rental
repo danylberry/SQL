@@ -1,6 +1,8 @@
 1. Showing the first and last names of all customers and their email addresses.
-select first_name,last_name,email from customer;
+select first_name,last_name,email 
+from customer;
 
 2. Reviewing all data in the customer table and limiting by 10.
-select * from customer 
+select * 
+from customer 
 limit 10;
