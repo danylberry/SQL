@@ -11,3 +11,7 @@ limit 10;
 select distinct (rating)
 from film;
 
+4. Displaying total number of customers.
+select count (*) 
+from customer;
+
