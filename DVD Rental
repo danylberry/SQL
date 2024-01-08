@@ -15,3 +15,19 @@ from film;
 select count (*) 
 from customer;
 
+5. What is the email form Nancy Thomas?
+select first_name, last_name, email
+from customer
+where first_name = 'Nancy'
+and last_name = 'Thomas';
+
+6. What is the movie Outlaw Hanky about?
+select title, description
+from film
+where title = 'Outlaw Hanky';
+
+7. What is the phone number for the customer that lives at  259 Ipoh Drive?
+select phone 
+from address
+where address = '259 Ipoh Drive';
+
