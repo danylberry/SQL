@@ -44,6 +44,6 @@ order by length asc
 limit 5;
 
 10. How many options does a customer have they want to watch a movie that is 50 minuets or less?
-elect count (*) 
+select count (*) 
 from film
 where length <= 50;
