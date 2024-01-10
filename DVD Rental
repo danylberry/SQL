@@ -31,3 +31,14 @@ select phone
 from address
 where address = '259 Ipoh Drive';
 
+8. What are the customer ids for the first 10 customer who created payment?
+select customer_id 
+from payment
+order by payment_date 
+limit 10;
+
+9. What are the titles of the five shortest movies?
+select title 
+from film
+order by length asc
+limit 5;
